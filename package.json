@@ -1,0 +1,29 @@
+{
+  "name": "food_ordering",
+  "version": "1.0.0",
+  "description": "This is test app by Dileep kumar for react learning",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilipkumar8711/react-sample-app.git"
+  },
+  "keywords": [],
+  "author": "Dileep kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilipkumar8711/react-sample-app/issues"
+  },
+  "homepage": "https://github.com/dilipkumar8711/react-sample-app#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
