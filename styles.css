@@ -1,1 +1,36 @@
-
+.header-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+.nav ul li {
+  padding: 0 10px;
+  font-size: 22px;
+}
+.filter-container {
+  margin: 20px 0 0 0;
+  display: inline-block;
+}
+.filter-container input {
+  margin: 0 20px 0 0;
+}
+.filter-container button {
+  margin: 0 15px 0 0;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container .card {
+  margin: 20px 10px 0 10px;
+  width: 12%;
+  display: flex;
+  border: 1px solid red;
+  background: #ddd;
+  padding: 0 10px;
+}
