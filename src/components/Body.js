@@ -1,4 +1,4 @@
-import Header from "./Header"; //default import
+import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react"; //named import
 
@@ -44,7 +44,9 @@ const Body = () => {
       </div>
       <div className="card-container">
         {filteredList.map((res) => (
-          <RestaurantCard key={res.info.id} resData={res} />
+          <Link key={res.info.id} to={"/restaurant/" + res.info.id}>
+            <RestaurantCard resData={res} />
+          </Link>
         ))}
       </div>
     </div>

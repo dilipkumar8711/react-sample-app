@@ -26,10 +26,15 @@
   display: flex;
   flex-wrap: wrap;
 }
-.card-container .card {
-  margin: 20px 10px 0 10px;
+.card-container a {
   width: 12%;
   display: flex;
+  text-decoration: none;
+  color: #000;
+}
+.card-container .card {
+  width: 100%;
+  margin: 20px 10px 0 10px;
   border: 1px solid red;
   background: #ddd;
   padding: 0 10px;
