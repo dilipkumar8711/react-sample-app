@@ -1,4 +1,8 @@
-.header-container {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .header-container {
   display: flex;
   padding: 10px;
   justify-content: space-between;
@@ -38,4 +42,8 @@
   border: 1px solid red;
   background: #ddd;
   padding: 0 10px;
+} */
+.card {
+  border: 1px solid red;
+  background: #ddd;
 }
